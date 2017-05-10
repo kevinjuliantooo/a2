@@ -7,63 +7,87 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
-<link href="../../Semua di Semester 2/CP1806 Web Design and Development/a2/css.css" rel="stylesheet" type="text/css">
+<link href="../fishtastic.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-
 <header>
-	<img src="../../Semua di Semester 2/CP1806 Web Design and Development/a2/logo.png" width="386" height="299" alt="fishtastic" class="logo"/>
+  <img src="../logo.png" width="129.0969899665552" height="100" alt="fishtastic" class="logo"/>
 <nav>
 	<ul>
-		<li><a href="#">Home</a></li>
-		<li><a href="#">About Us</a></li>
-		<li><a href="#">Our Fish World</a></li>
-		<li><a href="#">Events</a></li>
-		<li><a href="#">Contact Us</a></li>
-		<li><a href="#">Online Form</a></li>
+		<li><a href="#about">About Us</a></li>
+		<li><a href="#fishworld">Our Fish World</a></li>
+		<li><a href="#events">Events</a></li>
+		<li><a href="#contact">Contact Us</a></li>
+		<li><a href="#form">Online Form</a></li>
 	</ul>
 	</nav>
 </header> 
 
  <section class="homepage">
+ <img src="../fish2.png" alt="" width="341" height="255"/>
+<div class="container">
  	<h1 class="title">Fantastic Fish only at Fishtastic
  	<span>Here</span>
  	</h1>
- 	<a href="" class="button">See our Fish</a>
- </section>
+ 	<a href="#" class="button button-accent" >See our Fish</a>
+   <img src="../fish1.png" alt="" width="348" height="266"/> </div>
+</section>
  
+ <a name="about"></a>
+ <div class="container">
   <section class="about">
   	<div class="textbox"></div>
-  	<h1>What is Fish?</h1>
+  	<h1>About Us</h1>
   </section> 
   
+  <a name="fishworld"></a>
+  </div>
   <section class="fishworld">
-  <h1>Beautiful Fish</h1>
+  <h1>Our Fish World</h1>
+</section>
+	<a name="events"></a>
+	<section class="events">
+		<h1> Events </h1>
 	</section>
-	
-	<footer>
-	<div class="col-3">
-		<p>hihi</p>
-		</div>
-		
-		<div class="col-1">
-		<ul>
-		<li>a</li>
-		<li>b</li>
-		</ul>
-		
-		<ul>
-		<li>a</li>
-		<li>b</li>
-		</ul>
-		
-		<ul>
-		<li>a</li>
-		<li>b</li>
-		</ul>
-		
-		</div>
-	</footer>
+<a name="contact"></a>
+<section class="contact">
+	<h1> Contact Us</h1>
+</section>
+<a name="form"></a>
+<section class="form">
+	<h1> Online Form</h1>
+</section>
+<footer>
+      <div class="footer-stuff">
+        <div class="col-3"><strong>FIND US ON</strong>
+          <ul>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Pinterest</a></li>
+            <li><a href="">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="col-3"><strong>OTHER SHOPS</strong>
+          <ul>
+            <li><a href="">Red Robin</a></li>
+            <li><a href="">Emerald Eagle</a></li>
+            <li><a href="">Crimson Crane</a></li>
+            <li><a href="">Auburn Abbot</a></li>
+          </ul>
+        </div>
+        <div class="columns six">
+          <p><strong>Sign Up for the newsletter</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <form class="row">
+            <div class="columns eight">
+              <input type="email" placeholder="Your Email" class="u-full-width">
+            </div>
+            <div class="columns four">
+              <input type="submit" class="button-primary">
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
