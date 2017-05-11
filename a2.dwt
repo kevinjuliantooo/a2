@@ -11,53 +11,53 @@
 </head>
 
 <body>
+
 <header>
-  <img src="../logo.png" width="129.0969899665552" height="100" alt="fishtastic" class="logo"/>
+	<div></div>
+  <img src="../logo.png" width="135" height="100" alt="fishtastic" class="logo"/>
 <nav>
 	<ul>
 		<li><a href="#about">About Us</a></li>
-		<li><a href="#fishworld">Our Fish World</a></li>
 		<li><a href="#events">Events</a></li>
 		<li><a href="#contact">Contact Us</a></li>
 		<li><a href="#form">Online Form</a></li>
 	</ul>
 	</nav>
 </header> 
+<div> <img id="fish1" src="../fish1.png" alt="" width="233" height="164"/> </div>
 
  <section class="homepage">
  <img src="../fish2.png" alt="" width="341" height="255"/>
 <div class="container">
- 	<h1 class="title">Fantastic Fish only at Fishtastic
- 	<span>Here</span>
- 	</h1>
- 	<a href="#" class="button button-accent" >See our Fish</a>
-   <img src="../fish1.png" alt="" width="348" height="266"/> </div>
-</section>
+ 	<center><table width="50%" cellspacing="15" border="0">
+  <tbody>
+    <tr>
+      <th scope="col">Our Fish World</th>
+      <th scope="col">Accessories</th>
+    </tr>
+  </tbody>
+</table></center>
+
  
- <a name="about"></a>
+   </div>
+</section>
  <div class="container">
-  <section class="about">
+  <section class="title-1">
   	<div class="textbox"></div>
-  	<h1>About Us</h1>
+  	
+  	<p>Content</p>
   </section> 
   
   <a name="fishworld"></a>
+</div>
+  <div class="container">
+  	<section class="content">	
+	  <p>Content</p>
+  	</section>
   </div>
   <section class="fishworld">
-  <h1>Our Fish World</h1>
 </section>
-	<a name="events"></a>
-	<section class="events">
-		<h1> Events </h1>
-	</section>
-<a name="contact"></a>
-<section class="contact">
-	<h1> Contact Us</h1>
-</section>
-<a name="form"></a>
-<section class="form">
-	<h1> Online Form</h1>
-</section>
+
 <footer>
       <div class="footer-stuff">
         <div class="col-3"><strong>FIND US ON</strong>
@@ -76,18 +76,10 @@
             <li><a href="">Auburn Abbot</a></li>
           </ul>
         </div>
-        <div class="columns six">
-          <p><strong>Sign Up for the newsletter</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <form class="row">
-            <div class="columns eight">
-              <input type="email" placeholder="Your Email" class="u-full-width">
-            </div>
-            <div class="columns four">
-              <input type="submit" class="button-primary">
-            </div>
-          </form>
-        </div>
-      </div>
-    </footer>
+  </div>
+  <div id="maps">
+ 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.616411693928!2d103.89990931462135!3d1.4063962617832446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da15e4dc647ba7%3A0x10a6a3c179b0d224!2sGG%3C5+-+Waterway+Point!5e0!3m2!1sid!2sid!4v1494467974224" width="320" height="130" frameborder="0" style="border:0" allowfullscreen></iframe>
+ 		</div>
+</footer>
 </body>
 </html>

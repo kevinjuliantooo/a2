@@ -8,7 +8,7 @@ body{
 	margin: 0;
 	font-family: 'raleway',sans-serif;
 	text-align: center;
-	
+	background: #FFFFFF;
 }
 
 img{
@@ -16,11 +16,19 @@ img{
 	height: auto;
 }
 
+div img{
+	float: left;
+}
 .container{
 	width:95%;
 	margin: 0 auto;
+	
 }
 
+#fish1{
+	margin-top:180px;
+	left: 100em;
+}
 h1{
 	font-weight: 300;
 	font-size: 2.5rem;
@@ -41,17 +49,22 @@ h1{
 		font-size:3.7rem;
 	}
 }
-.button{
+center table{
 	font-size: 1.5rem;
 	text-decoration: none;
 	text-transform: uppercase;
 	border-width: 2px;
 	border-style: solid;
 	padding: .5em 1.75em;
+	color: #292727;
+	margin: 100px;
+	background-color:yellowgreen;
+	opacity: .6;
 }
 
 .button-accent{
 	color: #00ff6c;
+	margin: 100px;
 }
 
 .buton-accent:hover,
@@ -64,6 +77,9 @@ header{
 	left: 0;
 	right: 0;
 	margin-top: 1em;
+	background:#292828;
+	margin: 0;
+	opacity: 0.8;
 }
 
 header img{
@@ -77,7 +93,7 @@ nav ul{
 nav li{
 	display: inline-block;
 	margin: 1em;
-}
+}	
 
 nav a{
 	font-weight:900;
@@ -95,9 +111,9 @@ nav a:focus{
 
 .homepage{
 	background: url(background6.jpg) fixed;
-	background-size: cover;
 	color: #FFF;
-	padding: 15em 0;
+	padding: 3em 0;
+	background-size: cover;
 }
 
 	
@@ -115,4 +131,24 @@ footer ul li{
 }
 footer ul li a{
 	text-decoration: none;
+}
+.title-1{
+	font-size: 36px;
+	color: saddlebrown;
+}
+
+.content{
+	font-size: 12px;
+}
+@media(min-width: 500px){
+	#maps{
+		margin-left: 250px;
+	}
+}
+#maps{
+	margin-left: 1000px;
+}
+
+#fish1 img{
+	text-emphasis-position: above;
 }
