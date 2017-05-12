@@ -7,33 +7,33 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
-<link href="../fishtastic.css" rel="stylesheet" type="text/css">
+<link href="fishtastic.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
 <header>
 	<div></div>
-  <img src="../logo.png" width="135" height="100" alt="fishtastic" class="logo"/>
+  <a href="index.html"><img src="logo.png" width="135" height="100" alt="fishtastic" class="logo"/></a>
 <nav>
 	<ul>
-		<li><a href="#about">About Us</a></li>
-		<li><a href="#events">Events</a></li>
-		<li><a href="#contact">Contact Us</a></li>
-		<li><a href="#form">Online Form</a></li>
+		<li><a href="aboutUs.hml.html">About Us</a></li>
+		<li><a href="events.html">Events</a></li>
+	  <li><a href="contactUs.html">Contact Us</a></li>
+		<li><a href="onlineForm.html">Online Form</a></li>
 	</ul>
 	</nav>
 </header> 
-<div> <img id="fish1" src="../fish1.png" alt="" width="233" height="164"/> </div>
+<div> <img id="fish1" src="fish1.png" alt="" width="233" height="164"/> </div>
 
  <section class="homepage">
- <img src="../fish2.png" alt="" width="341" height="255"/>
+ <img src="fish2.png" alt="" width="341" height="255"/>
 <div class="container">
  	<center><table width="50%" cellspacing="15" border="0">
   <tbody>
     <tr>
-      <th scope="col">Our Fish World</th>
-      <th scope="col">Accessories</th>
+      <th scope="col"><a href="ourFishWorld.html">Our Fish World</a></th>
+      <th scope="col"><a href="accessories.html">Accessories</a></th>
     </tr>
   </tbody>
 </table></center>
