@@ -21,10 +21,16 @@ div img{
 }
 .container{
 	width:95%;
-	margin: 0 auto;
-	
+	margin: 0 auto;	
 }
 
+.container center table tbody tr th a{
+	text-decoration: none;
+}
+
+div p2 strong{
+	color: mediumpurple;
+}
 #fish1{
 	margin-top:180px;
 	left: 100em;
@@ -127,10 +133,11 @@ footer .footer-stuff .col-3 {
 }
 footer ul li{
 	list-style-type: none;
-	float:none
+	float:none;
 }
 footer ul li a{
 	text-decoration: none;
+	color: yellow;
 }
 .title-1{
 	font-size: 36px;
@@ -138,7 +145,11 @@ footer ul li a{
 }
 
 .content{
-	font-size: 12px;
+	font-size: 20px;
+}
+
+.content ul li{
+	list-style-type: none;
 }
 @media(min-width: 500px){
 	#maps{
