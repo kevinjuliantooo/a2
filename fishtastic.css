@@ -8,7 +8,7 @@ body{
 	margin: 0;
 	font-family: 'raleway',sans-serif;
 	text-align: center;
-	background: #FFFFFF;
+	
 }
 
 img{
@@ -16,25 +16,11 @@ img{
 	height: auto;
 }
 
-div img{
-	float: left;
-}
 .container{
-	width:95%;
-	margin: 0 auto;	
+	width:100%;
+	margin: 0 auto;
 }
 
-.container center table tbody tr th a{
-	text-decoration: none;
-}
-
-div p2 strong{
-	color: mediumpurple;
-}
-#fish1{
-	margin-top:180px;
-	left: 100em;
-}
 h1{
 	font-weight: 300;
 	font-size: 2.5rem;
@@ -55,25 +41,20 @@ h1{
 		font-size:3.7rem;
 	}
 }
-center table{
+.button{
 	font-size: 1.5rem;
 	text-decoration: none;
 	text-transform: uppercase;
 	border-width: 2px;
 	border-style: solid;
 	padding: .5em 1.75em;
-	color: #292727;
-	margin: 100px;
-	background-color:yellowgreen;
-	opacity: .6;
 }
 
 .button-accent{
 	color: #00ff6c;
-	margin: 100px;
 }
 
-.buton-accent:hover,
+.button-accent:hover,
 .button-accent:focus{
 	background: #00ff6c;
 	color: #232323
@@ -83,9 +64,6 @@ header{
 	left: 0;
 	right: 0;
 	margin-top: 1em;
-	background:#292828;
-	margin: 0;
-	opacity: 0.8;
 }
 
 header img{
@@ -99,7 +77,7 @@ nav ul{
 nav li{
 	display: inline-block;
 	margin: 1em;
-}	
+}
 
 nav a{
 	font-weight:900;
@@ -116,10 +94,10 @@ nav a:focus{
 }
 
 .homepage{
-	background: url(background6.jpg) fixed;
-	color: #FFF;
-	padding: 3em 0;
+	background: url(https://s-media-cache-ak0.pinimg.com/originals/72/5e/8c/725e8cb3f1888411fbb6360d246c3275.jpg)fixed;
 	background-size: cover;
+	color: #FFF;
+	padding: 15em 0;
 }
 
 	
@@ -127,39 +105,92 @@ footer {
 	padding: 1em;
 	background: #626262;
 	height:10em;
+	color:goldenrod;
 }
 footer .footer-stuff .col-3 {
 	float:left;
+	text-align: center;
 }
 footer ul li{
 	list-style-type: none;
 	float:none;
+	text-align: left;
+	color:darkkhaki;
 }
 footer ul li a{
+	color:antiquewhite;
 	text-decoration: none;
-	color: yellow;
-}
-.title-1{
-	font-size: 36px;
-	color: saddlebrown;
 }
 
-.content{
-	font-size: 20px;
+.fishworld{
+	background: url(https://secure.static.tumblr.com/8bde956eb88dfac2a5ee6f953447071b/5fuervi/fWGonm44q/tumblr_static_tumblr_static_filename_640.gif) fixed;
+	background-size: cover;
 }
 
-.content ul li{
-	list-style-type: none;
+.about{
+	background-color: #1A1A1A;
+	color:antiquewhite;
+	margin: 0;
 }
-@media(min-width: 500px){
-	#maps{
-		margin-left: 250px;
+
+#box{
+	border: dotted;
+	border-color: chartreuse;
+	margin-right: 150px;
+	margin-left: 150px;
+}
+
+.slider{
+	overflow: hidden;
+	height: 350px;
+}
+
+.slider figure div{
+	width: 20%;
+	float: left;
+}
+
+.slide figure img{
+	width: 50%;
+	float: left;
+}
+
+.slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left:0;
+	animation: 10s slidy infinite;
+}
+
+@keyframes slidy{
+	0%{
+		left: 0%
+	}
+	
+	22%{
+		left: 0%
+	}
+	
+	48%{
+		left: -100%;
+	}
+	
+	78%{
+		left: -100%;
+	}
+	
+	94%{
+		left: 0%;
+	}
+	
+	96%{
+		left: 0%;
 	}
 }
-#maps{
-	margin-left: 1000px;
-}
 
-#fish1 img{
-	text-emphasis-position: above;
+.events{
+	background:#898989;
+	background-size: cover;
+	padding: 40px;
 }

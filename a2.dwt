@@ -11,53 +11,84 @@
 </head>
 
 <body>
-
-<header>
-	<div></div>
-  <a href="index.html"><img src="logo.png" width="135" height="100" alt="fishtastic" class="logo"/></a>
+<header> <a href="a2.html"><img src="logo.png" width="129.0969899665552" height="100" alt="fishtastic" class="logo"/></a>
 <nav>
 	<ul>
-		<li><a href="aboutUs.hml.html">About Us</a></li>
+		<li><a href="#about">About Us</a></li>
+		<li><a href="#fishworld">Our Fish World</a></li>
 		<li><a href="events.html">Events</a></li>
-	  <li><a href="contactUs.html">Contact Us</a></li>
-		<li><a href="onlineForm.html">Online Form</a></li>
+		<li><a href="qna.html">Contact Us</a></li>
+		<li><a href="Form.html">Online Form</a></li>
 	</ul>
 	</nav>
 </header> 
-<div> <img id="fish1" src="fish1.png" alt="" width="233" height="164"/> </div>
 
  <section class="homepage">
  <img src="fish2.png" alt="" width="341" height="255"/>
 <div class="container">
- 	<center><table width="50%" cellspacing="15" border="0">
-  <tbody>
-    <tr>
-      <th scope="col"><a href="ourFishWorld.html">Our Fish World</a></th>
-      <th scope="col"><a href="accessories.html">Accessories</a></th>
-    </tr>
-  </tbody>
-</table></center>
-
+ 	<h1 class="title">Fantastic Fish only at Fishtastic
+ 	<span>Find Here</span>
+ 	</h1>
+ 	<a href="product.html" class="button button-accent" >See our Fish</a>
+ 	<p>&nbsp;</p>
+   <img src="fish1.png" alt="" width="348" height="266"/> </div>
+</section>
  
-   </div>
-</section>
+ 
  <div class="container">
-  <section class="title-1">
-  	<div class="textbox"></div>
+ <a name="about">
+  <section class="about">
+  	<h1>About Us</h1>
+  	<div id="box"> 
+  	<p><strong>Company Mission</strong></p>
+
+<p>To diversify the delights and pleasure of fishkeeping to the society</p>
+
+<p><strong>Company Vision</strong></p>
+
+ <p>To be the number one fish aquarium in the global market</p>
+	  </div>
+ 
+<blockquote>
+  	  <p>In 2013, FISH~TASTIC is founded by Mr K.H.Chan, also, the co-sponsor of Singapore Sea Aquarium.FISH~TASTIC sell a variety of fishes prices ranging from affordable to luxury. FISH~TASTIC also carry product of accessories and fish foods of many well-known brands like Hikari, Tropical, and Rio. In 2014, FISH~TASTIC has been awarded Top Asia Enterprise 2014 and Singapore’s Outstanding Enterprise 2014. Nominated by members of the public for our excellence in service, products and social responsibility. For that, we are thankful for the recognition.</p>
+      <p>We have trading partners worldwide, whom we have business dealing with in countries all over the world. We continue to explore and look for trading partners in other parts of the world, so as to acquire more products to develop our farm into a one-stop shopping paradise for all fish lovers.</p>
+  	  <p>Come and visit our store to make your marine aquarium beautiful and pristine. We are here to share our knowledge and make your hobby as easy as possible. We believe that it is truly a privilege to be able to look at a part of the ocean everyday. </p>
+  	  <p>If you have any questions, please feel free to contact us by phone or email.</p>
+  	</blockquote>
   	
-  	<p>Content</p>
-  </section> 
+  	<div class="slider">
+  		<figure>
+			<div class="slide">
+				<img src="images(1)/ASIA-TOP-OUTSTANDING-ENTERPRISE2014 award 1.jpg">
+			</div>
+
+			<div class="slide">
+				<img src="images(1)/Singapore Outstanding Enterprise 2014 award 2.jpg" alt=""/> 
+			</div>
+		</figure>
+  	</div>
+</section></a>
   
-  <a name="fishworld"></a>
-</div>
-  <div class="container">
-  	<section class="content">	
-	  <p>Content</p>
-  	</section>
+  
   </div>
+  
   <section class="fishworld">
+ 	<a name="fishworld"> 
+  <h1>Our Fish World</h1>
+  <p>Lets See Our Fishworld... Fishtastic</p>
+  <a href="product.html" class="button button-accent" >Check It out</a>
+  <p>&nbsp;</p>
+ 	</a>
 </section>
 
+
+	<section class="events">
+	<a name="events">
+	<h1> Lets Go Check Our Newest Event </h1>
+		<a href="#" class="button button-accent" >Fun For Fish</a>
+	  </a>
+</section>
+	
 <footer>
       <div class="footer-stuff">
         <div class="col-3"><strong>FIND US ON</strong>
@@ -76,10 +107,18 @@
             <li><a href="">Auburn Abbot</a></li>
           </ul>
         </div>
-  </div>
-  <div id="maps">
- 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.616411693928!2d103.89990931462135!3d1.4063962617832446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da15e4dc647ba7%3A0x10a6a3c179b0d224!2sGG%3C5+-+Waterway+Point!5e0!3m2!1sid!2sid!4v1494467974224" width="320" height="130" frameborder="0" style="border:0" allowfullscreen></iframe>
- 		</div>
-</footer>
+        <div class="columns six">
+          <p><strong>Sign Up for the newsletter</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <form class="row">
+            <div class="columns eight">
+              <input type="email" placeholder="Your Email" class="u-full-width">
+            </div>
+            <div class="columns four">
+              <input type="submit" class="button-primary">
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>

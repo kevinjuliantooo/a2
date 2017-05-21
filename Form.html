@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Fishtastic | Form</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="sidecss.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header> <a href="a2.html"><img src="logo.png" width="129.0969899665552" height="100" alt="fishtastic" class="logo"/></a>
+<nav>
+	<ul>
+		<li><a href="a2.html">About Us</a></li>
+		<li><a href="a2.html">Our Fish World</a></li>
+		<li><a href="events.html">Events</a></li>
+		<li><a href="qna.html">Contact Us</a></li>
+		<li><a href="Form.html">Online Form</a></li>
+	</ul>
+	</nav>
+</header>
+
+<section>
+	<h1>Choose Your Form</h1>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Feedback Form</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>We're so glad get feedback from you. Hopefully your feedback can improve us to be better</p>
+    <form>
+    	<textarea rows="4" cols="50" name="comment" form="usrform">
+</textarea>
+  <p> </p>
+   <input type="submit">
+       </form> 
+  </div>
+
+</div>
+	
+	
+<button id="myBtn2">Order Form</button>
+
+<!-- The Modal -->
+<div id="myModal2" class="modal2">
+
+  <!-- Modal content -->
+  <div class="modal-content2">
+    <span class="close2">&times;</span>
+    <p>Please put your data here:</p>
+ <script type="text/javascript" src="filljs1.js"></script>
+    <form name="myform" action="/action_page.php"
+  oninput="total.value= '$' + parseInt(item.value)*parseInt(quantity.value)"
+   onsubmit="return validateForm()" method="post">
+    <center><table width="200" border="1">
+  <tbody>
+    <tr>
+      <td>NAME:</td>
+      <td><input name="name" type="text"></td>
+    </tr>
+    <tr>
+      <td>ADDRESS:</td>
+      <td><input name="address" type="text"></td>
+    </tr>
+    <tr>
+      <td>CITY:</td>
+      <td><input name="city" type="text"></td>
+    </tr>
+    <tr>
+      <td>STATE:</td>
+      <td><input name="state" type="text"></td>
+    </tr>
+    <tr>
+      <td>POSTAL CODE:</td>
+      <td><input name="pcode" type="text" maxlength="6"></td>
+    </tr>
+    <tr>
+      <td>CONTACT NO.:</td>
+      <td>+65 <input name="contactno" type="text" maxlength="8"></td>
+    </tr>
+    <tr>
+      <td>EMAIL:</td>
+      <td><input name="email" type="email"></td>
+    </tr>
+    <tr>
+      <td>ITEM CODE:</td>
+      <td><select name="item">
+    <option value="0.8">Guppy - A01</option>
+    <option value="1">Fantail Goldfish - A02</option>
+    <option value="1.30">Oranda Goldfish - A03</option>
+    <option value="0.8">Neon Tetra - A04</option>
+    <option value="31.40">Clown Fish - S01</option>
+    <option value="32.00">Butterfly Fish - S02</option>
+    <option value="70">Angle Fish - SO3</option>
+    <option value="30">Dory Fish - S04</option>
+    <option value="680">Regular Fish Tank - T01</option>
+    <option value="349.">Premium Fish Tank - T02</option>
+    <option value="39.99">Brandy Glass Fish Bowl ( 7 litres) - T03</option>
+    <option value="18.99">600 Rio Water Pump - T04</option>
+    <option value="43">Fish Medicinal Food-HEX SHIELD 125g - M01</option>
+    <option value="4">Wonder Shell - M02</option>
+    <option value="8.99">API Pro Series; GENERAL CURE- - M03</option>
+    <option value="6.50">Fish Food-Tropical Flakes - B01</option>
+    <option value="11.99">Algae Wafers - B02</option>
+    <option value="2.99">Bloodworms - B03</option>
+    <option value="17.99">Artificial Water Plant -D01</option>
+    <option value="3">Artificial Corals - D02</option>
+    <option value="14.99">Ceramic Castle House - D03</option>
+  </select></td>
+    </tr>
+    <tr>
+      <td>QUANTITY:</td>
+      <td><input name="quantity" type="number" autocomplete="off" min="1"></td>
+    </tr>
+    <tr>
+      <td>TOTAL:</td>
+      <td><output name="total" for="item quantity"></output></td>
+    </tr>
+    <tr>
+      <td>PAYMENT METHOD:</td>
+      <td>MasterCard <input name="pay" value="mastercard" type="radio"> Visa <input name="pay" value="visa" type="radio"></td>
+    </tr>
+    <tr>
+      <td>CREDIT CARD NUMBER:</td>
+      <td><input name="ccnumber" type="text" autocomplete="off" maxlength="16"></td>
+    </tr>
+    <tr>
+      <td>CVV:</td>
+      <td><input name="ccv" type="password" maxlength="3"></td>
+    </tr>
+    <tr>
+      <td>COMMENTS:</td>
+      <td><input name="comment" type="tel"></td>
+    </tr>
+  </tbody>
+</table>
+ <input type="submit"> <input type="reset">
+ </center>
+
+	  </form>
+  </div>
+
+</div>
+<script type="text/javascript" src="formjs.js"></script>
+
+
+</section>
+
+<footer>
+      <div class="footer-stuff">
+        <div class="col-3"><strong><em>Contact Us</em></strong>
+          <ul>
+            <li><strong>Address:</strong></li>
+            <li>83 Punggol Central Waterway Point, Singapore 828761 #01-11</li>
+            <li><strong>Contact Number:</strong></li>
+            <li>+65 6383 0111</li>
+          </ul>
+        </div>
+        <div class="col-3"><strong><em>OTHER SHOPS</em></strong>
+          <ul>
+            <li><a href="">Red Robin</a></li>
+            <li><a href="">Emerald Eagle</a></li>
+            <li><a href="">Crimson Crane</a></li>
+            <li><a href="">Auburn Abbot</a></li>
+          </ul>
+        </div>
+        <div class="columns six">
+          <p><strong>Sign Up for the newsletter</strong> to be the first person got the information from Fishtastic</p>
+        </div>
+        <div class="columns six">
+          <form class="row">
+            <div class="columns eight">
+              <input type="email" placeholder="Your Email" class="u-full-width">
+            </div>
+            <div class="columns four">
+              <input type="submit" class="button-primary">
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

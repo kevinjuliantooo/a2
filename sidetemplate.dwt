@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="sidecss.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <img src="logo.png" width="129.0969899665552" height="100" alt="fishtastic" class="logo"/>
+<nav>
+	<ul>
+		<li><a href="#about">About Us</a></li>
+		<li><a href="#fishworld">Our Fish World</a></li>
+		<li><a href="#events">Events</a></li>
+		<li><a href="#contact">Contact Us</a></li>
+		<li><a href="#form">Online Form</a></li>
+	</ul>
+	</nav>
+</header>
+
+<section>
+	<h1>Question and Answer</h1>
+	<p><strong>Q:</strong>How many tropical fish can I have?
+
+<p><strong>A:</strong>The often stated general rule of thumb (don't stock your tank using this rule!) is 1 inch of fish per gallon of water. Remember to use the future adult size of your fish when computing the total inches of fish you can have.</p>
+
+<p><strong>Q:</strong>Can I use tap water to fill my tank?</p>
+
+
+<p><strong>A:</strong>Maybe - first for chlorine and or chloramines. Most likely you will have these chemicals in your water and you will need to remove or neutralize them before adding water to your tank.</p>
+
+<p><strong>Q:</strong>How often should I change the water?</p>
+
+
+<p><strong>A:</strong>It depends on how many fish you have and the quality of your filtration system. In lightly stocked tanks, I would recommend changing 10 percent of the water once a week.</p>
+
+<p><strong>Q:</strong>How often should I feed my tropical fish?</p> 
+<p>A:It is best to give your fish two or three small feedings per day. Only give an amount of food that the fish can eat in 2 minutes or less.</p>
+
+<p><strong>Q:</strong>What are some good tropical fish for beginners?</p> 
+<p>A:There are a few species that are particularly hardy and that can tolerate some of the mistakes that a beginner may make.</p>
+
+<p><strong>Q:</strong>Help, I can't find my fish! Where is it? </p>
+<p><strong>A:</strong> Some fish do jump out, especially when there is no hood or it is not properly secured. Look all around the tank, including behind it. Another place to look is inside the filter. Smaller fish can easily get into the filter's intake tube and it will often, unfortunately, kill them. </p>
+<p><strong>Q</strong>:What should the fish tank temperature be set at?</p>
+
+
+<p><strong>A:</strong>The aquarium water temperature depends on the fish species in question. Different species require different temperatures. Generally speaking, for tropical fish a good temperature range would be anywhere from 72 °F to 78 °F (22 °C to 26 °C);.</p>
+
+<p><strong>Q:</strong>Can I leave my aquarium lights on 24 hours?</p>
+
+
+<p><strong>A:</strong>Your fish need some "down time" just like you do. Sure, they don't crawl under the covers and go to sleep, but they do hunker down in a quiet place and rest at night. </p>
+ </p>
+</section>
+
+<footer>
+      <div class="footer-stuff">
+        <div class="col-3"><strong>FIND US ON</strong>
+          <ul>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Pinterest</a></li>
+            <li><a href="">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="col-3"><strong>OTHER SHOPS</strong>
+          <ul>
+            <li><a href="">Red Robin</a></li>
+            <li><a href="">Emerald Eagle</a></li>
+            <li><a href="">Crimson Crane</a></li>
+            <li><a href="">Auburn Abbot</a></li>
+          </ul>
+        </div>
+        <div class="columns six">
+          <p><strong>Sign Up for the newsletter</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <form class="row">
+            <div class="columns eight">
+              <input type="email" placeholder="Your Email" class="u-full-width">
+            </div>
+            <div class="columns four">
+              <input type="submit" class="button-primary">
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
